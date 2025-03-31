@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Project</title>
+    <link rel="stylesheet" href="Css/sample-style.css">
+    <link rel="stylesheet" href="Fonts/fontawesome/css/all.css">
+    <link rel="stylesheet" href="Fonts/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="Css/fontstyle.css">
+    <link rel="stylesheet" href="Css/css-reset.css">
+</head>
+<body>
+    <header class="container">
+        <nav class="menu-bar">
+            <div class="logo">
+                <img src="Image/Chanel-Logo.wine.svg" class="img-logo">
+            </div>
+
+            <div class="menu">
+              <ul class="menu-list">
+                <li>
+                  <a id="store" href="#">فروشگاه</a>
+                   <ul class="sub-menu">
+                    <li><a href="#">محصول 1</a></li>
+                    <li><a href="#">محصول 2</a></li>
+                    <li><a href="#">محصول 3</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">پرطرفدارها</a></li>
+                <li><a href="#">جدیدترین ها</a></li>
+                <li><a href="#">برندها</a></li>
+              </ul>
+            </div>
+
+            <!-- <ul class="menu">
+                <li class="menu-item">
+                    <a class="link-item" id="store" href="#">فروشگاه</a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu-item"><a class="link-item" href="#">محصول 1</a></li>
+                        <li class="sub-menu-item"><a class="link-item" href="#">محصول 2</a></li>
+                        <li class="sub-menu-item"><a class="link-item" href="#">محصول 3</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item"><a class="link-item" href="#">پرطرفدارها</a></li>
+                <li class="menu-item"><a class="link-item" href="#">جدیدترین ها</a></li>
+                <li class="menu-item"><a class="link-item" href="#">برندها</a></li>
+            </ul> -->
+
+            <div class="navigation">
+                <!-- <div class="search-bar">
+                    <label id="search">
+                        <input type="search" name="search" placeholder="جستجو" class="search-box">
+                    <div class="icon-search">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    </label>
+                    
+                </div> -->
+                <div class="search">
+                  <span class="fas fa-search"></span>
+                  <input type="search" placeholder="جستجو" class="search-box">
+                </div>
+                
+                <div class="icon-bar">
+                    <a href="#" class="icons">
+                        <!-- <i class="fal fa-user"></i> -->
+                         <img src="Image/user.png" class="icon-img">
+                    </a>
+                    <a href="#" class="icons">
+                        <!-- <i class="fal fa-shopping-cart"></i> -->
+                         <img src="Image/shopping-cart.png" class="icon-img">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--slideshow-->
+    <div class="slider-container">
+        <div class="slide fade">
+          <img class="slide-image" src="Image/clothing-store-with-blurred-effect.jpg">
+          <div class="slide-content">
+            <h3 class="slide-title">با مجموعه لباس های زمستانی ما بیش از پیش خوشتیپ شوید</h3>
+            <a href="" class="slide-btn">
+              همین حالا بخر <i class="fas fa-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+      
+        <div class="slide fade">
+          <img class="slide-image" src="Image/fashion-clothing-hangers-show.jpg">
+          <div class="slide-content">
+            <h3 class="slide-title">با مجموعه لباس های زمستانی ما بیش از پیش خوشتیپ شوید</h3>
+            <a href="" class="slide-btn">
+              همین حالا بخر <i class="fas fa-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+      
+        <div class="slide fade">
+          <img class="slide-image" src="Image/rows-hangers-with-clothes.jpg">
+          <div class="slide-content">
+            <h3 class="slide-title">با مجموعه لباس های زمستانی ما بیش از پیش خوشتیپ شوید</h3>
+            <a href="" class="slide-btn">
+              همین حالا بخر <i class="fas fa-arrow-left"></i>
+            </a>
+          </div>
+        </div>
+      
+        <!-- The dots/circles -->
+        <div class="dot-container">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </div>
+
+      <div class="brand-container">
+        <h2 class="title-brand">برندها</h2>
+        <div class="pic-brand-container">
+          <div class="pic-brand-holder">
+            <img src="Image/Brand/Brand 1.png" class="pic-brand">
+          </div>
+          <div class="pic-brand-holder">
+            <img src="Image/Brand/Brand 2.png" class="pic-brand">
+          </div>
+          <div class="pic-brand-holder">
+            <img src="Image/Brand/Brand 3.png" class="pic-brand">
+          </div>
+          <div class="pic-brand-holder">
+            <img src="Image/Brand/Brand 4.png" class="pic-brand">
+          </div>
+          <div class="pic-brand-holder">
+            <img src="Image/Brand/Brand 5.png" class="pic-brand">
+          </div>
+          <div class="pic-brand-holder">
+            <img src="Image/Brand/Brand 6.png" class="pic-brand">
+          </div>
+          <div class="pic-brand-holder">
+            <img src="Image/Brand/Brand 7.png" class="pic-brand">
+          </div>
+        </div>
+      </div>
+
+      <div class="brand-container">
+        <h2 class="title-brand">بهترین تجربه خرید خود را داشته باشید</h2>
+        <div class="sales-container">
+          <div class="sales-box">
+            <div class="pic-box">
+              <img src="Image/dollar-sign-solid.svg" class="pic-sales">
+            </div>
+            <h3 class="title-sales-box">کالاهای اصل</h3>
+            <p class="txt-sales-box">ضمانت برگشت وجه در صورت اصل نبودن کالا</p>
+          </div>
+          <div class="sales-box">
+            <div class="pic-box">
+              <img src="Image/smile-regular.svg" class="pic-sales">
+            </div>
+            <h3 class="title-sales-box">تضمین رضایت</h3>
+            <p class="txt-sales-box">تعویض کالا در صورت اندازه نبودن</p>
+          </div>
+          <div class="sales-box">
+            <div class="pic-box">
+              <img src="Image/sync-solid.svg" class="pic-sales">
+            </div>
+            <h3 class="title-sales-box">هر روز محصولات جدید</h3>
+            <p class="txt-sales-box">بروزرسانی مجموعه محصولات هر روز</p>
+          </div>
+          <div class="sales-box" id="sales-box-4">
+            <div class="pic-box">
+              <img src="Image/truck-light.svg" class="pic-sales">
+            </div>
+            <h3 class="title-sales-box">ارسال سریع و رایگان</h3>
+            <p class="txt-sales-box">ارسال سریع و به موقع برای مشتریان وفادار</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="categori">
+        <h2 class="title-brand">دسته بندی ها</h2>
+        <div class="sales-container">
+          <div  class="box-cat" id="box1">
+            <div class="txt-cat">
+              <a href="#" class="link-cat">
+                پیراهن <i class="fas fa-arrow-left icon-cat"></i>
+              </a>
+            </div>
+          </div>
+  
+          <div class="box-cat" id="box2">
+            <div class="txt-cat">
+              <a href="#" class="link-cat">
+                بافت <i class="fas fa-arrow-left icon-cat"></i>
+              </a>
+            </div>
+          </div>
+  
+          <div class="box-cat" id="box3">
+            <div class="txt-cat">
+              <a href="#" class="link-cat">
+                شلوار <i class="fas fa-arrow-left icon-cat"></i>
+              </a>
+            </div>
+          </div>
+  
+          <div class="box-cat" id="box4">
+            <div class="txt-cat">
+              <a href="#" class="link-cat">
+                تی شرت <i class="fas fa-arrow-left icon-cat"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="categori">
+        <div class="box-txt-arrow">
+          <h2 class="title-brand">محصولات پر فروش</h2>
+          <div class="icon-arrow">
+            <i class="fas fa-chevron-right icon-product"></i>
+            <i class="fas fa-chevron-left icon-product"></i> 
+          </div>
+        </div>
+        
+        <div class="sales-container">
+          <div  class="box-cat box-product">
+            <div class="img-box">
+              <img src="Image/Product/Woven.jpg" class="pic-pr">
+              <p class="txt-pr">تخفیف</p>
+            </div>
+            <div class="txt-pr-box">
+              <a href="#" class="link-pr">
+                <div class="box-price">
+                  <p class="txt-price">بافت</p>
+                  <p>1,000,000 تومان <span class="price">1,500,000 تومان</span></p>
+                </div>
+                <div class="icon-price">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+  
+          <div  class="box-cat box-product">
+            <div class="img-box">
+              <img src="Image/Categori/Shirt-2.webp" class="pic-pr">
+            </div>
+            <div class="txt-pr-box">
+              <a href="#" class="link-pr">
+                <div class="box-price">
+                  <p class="txt-price">بافت</p>
+                  <p>1,000,000 تومان</p>
+                </div>
+                <div class="icon-price">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+   
+          <div  class="box-cat box-product" id="box-product-4">
+            <div class="img-box">
+              <img src="Image/Product/Woven.jpg" class="pic-pr">
+              <p class="txt-pr">تخفیف</p>
+            </div>
+            <div class="txt-pr-box">
+              <a href="#" class="link-pr">
+                <div class="box-price">
+                  <p class="txt-price">بافت</p>
+                  <p>1,000,000 تومان <span class="price">1,500,000 تومان</span></p>
+                </div>
+                <div class="icon-price">
+                  <i class="fas fa-shopping-cart"></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pic-container">
+        <div class="pictures-box">
+          <img src="Image/Categori/Shirt-2.webp"class="img-pic-container">
+        </div>
+        <div class="txt-pic-container">
+          <p class="txt-pic-co-box">محصولات دارای بیش از <span class="color-txt">30%</span> تخفیف</p>
+          <a href="" class="pic-container-btn">
+            همین حالا بخر <i class="fas fa-arrow-left icon-pic"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="magzine-conatiner">
+        <div class="magzine-box">
+          <h2 class="title-mag">عضویت در خبر نامه</h2>
+          <p class="txt-mag">با عضویت در خبر نامه از تخفیفات ما با خبر شوید</p>
+
+          <div class="search frm-mag">
+            <span class="far fa-envelope-open"></span>
+            <input type="email" name="email" placeholder="ایمیل خود را وارد کنید" class="search-box email-box">
+            <button type="submit" class="btn-mag">عضویت</button>
+          </div>
+
+          <p class="txt-mag txt-mag-2">برای مطالعه قوانین وب سایت ما <a href="#" class="link-mag">کلیک کنید</a></p>
+        </div>
+      </div>
+
+      <footer>
+        <div class="ftr-container">
+          <div class="about">
+            <img class="img-about" src="Image/Chanel-Logo.wine.svg">
+            <p class="txt-about">
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است 
+            </p>
+          </div>
+
+          <div class="clm-ftr">
+            <h4 class="title-clm-ftr">فروشگاه</h4>
+            <div class="txt-container-clm">
+              <a href="#" class="link-clm-ftr">مجموعه زمستانی</a>
+              <a href="#" class="link-clm-ftr">مجموعه تابستانی</a>
+            </div>
+          </div>
+
+          <div class="clm-ftr">
+            <h4 class="title-clm-ftr">شرکت</h4>
+            <div class="txt-container-clm">
+              <a href="#" class="link-clm-ftr">درباره ما</a>
+              <a href="#" class="link-clm-ftr">تماس با ما</a>
+            </div>
+          </div>
+
+          <div class="clm-ftr">
+            <h4 class="title-clm-ftr">پشتیبانی</h4>
+            <div class="txt-container-clm">
+              <a href="#" class="link-clm-ftr">سوالات پر تکرار</a>
+              <a href="#" class="link-clm-ftr">قوانین و مقررات</a>
+            </div>
+          </div>
+          
+          <div class="clm-symbol">
+            <h4>نمادهای اطمینان</h4>
+            <div class="img-box-symbol">
+              <img class="img-symbol" src="Image/Symbol/نماد-اعتماد.png">
+              <img class="img-symbol" id="img-symbol-1" src="Image/Symbol/do-all-sites-have-enamad-2-Photoroom.png">
+              <img class="img-symbol" src="Image/Symbol/IMG_5309-1024x1024-Photoroom.png">
+            </div>
+          </div>
+        </div>
+
+        <hr class="line">
+
+        <div class="ftr-txt-con">
+          <p class="txt-ftr">
+            تمامی حقوق برای وب سایت Fashion Design محفوظ است
+          </p>
+        </div>
+
+      </footer>
+      
+      <script src="JS/javascript.js"></script>
+
+</body>
+</html>
